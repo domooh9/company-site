@@ -78,3 +78,21 @@ header {
     font-size: 2rem;
   }
 }
+.typing-animation {
+  overflow: hidden; /* Hide overflowing content */
+  white-space: nowrap; /* Prevent line breaks */
+  animation: typing 5s steps(40, end) forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0; /* Start with no width */
+  }
+  to {
+    width: 100%; /* End with full width */
+  }
+}
+
+
+
+
