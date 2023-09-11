@@ -32,13 +32,13 @@ const Infos = () => {
         <h3>Contact Us</h3>
         <ul>
           <li>
-            <i className="map marker alternate icon"></i>288 street, 23568 NY
+            <i className="map marker alternate icon"></i>Kisumu
           </li>
           <li>
-            <i className="mail icon"></i>servicepro@yoursite.com
+            <i className="mail icon"></i>domooh9@.com
           </li>
           <li>
-            <i className="phone volume icon"></i> (808) 08 080 8080
+            <i className="phone volume icon"></i> +254710809487
           </li>
         </ul>
       </div>

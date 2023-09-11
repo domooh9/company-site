@@ -1,12 +1,12 @@
-import '../stylesheets/header.css';
+import "../stylesheets/header.css";
 const Header = () => {
   return (
     <header id="home">
       <div id="landing-header">
         <div className="header">
-          <h1>PROFESSIONAL</h1>
-          <h1>SERVICES</h1>
-          <h1>FOR YOU</h1>
+          <h1>ELEVATING TECHNOLOGY</h1>
+          <h1>EMPOWERING</h1>
+          <h1>LIVES</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
             eveniet.

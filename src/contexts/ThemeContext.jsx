@@ -6,7 +6,7 @@ const ThemeContextProvider = (props) => {
     { link: "#our-services", value: "our services" },
     { link: "#work", value: "our team" },
     { link: "#about-us", value: "about us" },
-    { link: "#subscribe", value: "subscribe" },
+    { link: "#blog", value: "blog" },
     { link: "#useful-links", value: "useful links" },
   ]);
   return (

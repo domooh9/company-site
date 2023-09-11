@@ -9,29 +9,29 @@ export default function Subscribe() {
         <div className="row"></div>
         <div id="useful-links" className="footer-infos grid">
           <div>
-            <h3>Finance Business</h3>
+            <h3>Our Services</h3>
             <ul>
-              <li>Some Link</li>
-              <li>Some Link</li>
-              <li>Some Link</li>
-              <li>Some Link</li>
+              <li>Software Development</li>
+              <li>Web Design</li>
+              <li>Penetration Testing</li>
+              <li>IT Consultancy</li>
             </ul>
           </div>
           <div>
-            <h3>Informations</h3>
+            <h3>Information</h3>
             <ul>
               <li>About Us</li>
               <li>How We Work</li>
-              <li>Terms And Condition</li>
-              <li>Privacy and Policy</li>
+              <li>Terms and Conditions</li>
+              <li>Privacy Policy</li>
             </ul>
           </div>
           <div>
-            <h3>Customer services</h3>
+            <h3>Contact Us</h3>
             <ul>
-              <li>FAQ's</li>
-              <li>Orders And Returns</li>
-              <li>Contact Us</li>
+              <li>FAQs</li>
+              <li>Customer Support</li>
+              <li>Contact Information</li>
               <li>Support Center</li>
             </ul>
           </div>
@@ -39,21 +39,20 @@ export default function Subscribe() {
             <h3>Contact Us</h3>
             <ul>
               <li>
-                <i className="map marker alternate icon"></i>288 street, 23568
-                NY
+                <i className="map marker alternate icon"></i>KISUMU KE
               </li>
               <li>
-                <i className="mail icon"></i>servicepro@yoursite.com
+                <i className="mail icon"></i>domooh9@.com
               </li>
               <li>
-                <i className="phone volume icon"></i> (808) 08 080 8080
+                <i className="phone volume icon"></i> +254710809487
               </li>
             </ul>
           </div>
         </div>
         <hr />
-        <p className="copyright">
-          Created by Runtime AlgoRhythm | &#169; 2023-2024 All&nbsp;Right
+        <p className="copyright" id="copy">
+          FLOMITECH INNOVATIONS LIMITED | &#169; 2023-2024 All&nbsp;Right
           Reserved.
         </p>
       </div>

@@ -1,26 +1,30 @@
-import '../../stylesheets/features.css';
+import React from "react";
+import "../../stylesheets/features.css";
+
 const Features = () => {
   return (
     <section id="features" className="features grid">
       <div>
-        <i className="chat outline big icon"></i>
-        <h5>Online Support</h5>
-        <p>We support online 24/7 on day</p>
+        <i className="lightbulb outline big icon"></i>
+        <h5>Innovative Solutions</h5>
+        <p>We provide innovative solutions tailored to your needs.</p>
       </div>
       <div>
-        <i className="dollar big icon"></i>
-        <h5>Money Guarantee</h5>
-        <p>30 days money back guarantee</p>
+        <i className="users big icon"></i>
+        <h5>Customer-Centric</h5>
+        <p>Our focus is on delivering exceptional customer experiences.</p>
       </div>
       <div>
-        <i className="dollar big icon"></i>
-        <h5>Money Guarantee</h5>
-        <p>30 days money back guarantee</p>
+        <i className="shield alternate big icon"></i>
+        <h5>Data Security</h5>
+        <p>Your data is safeguarded with our top-notch security measures.</p>
       </div>
       <div>
-        <i className="payment outline big icon"></i>
-        <h5>Secure Payement</h5>
-        <p>All payement are Secured and Trusted</p>
+        <i className="handshake outline big icon"></i>
+        <h5>Trusted Partnerships</h5>
+        <p>
+          We build long-lasting partnerships based on trust and reliability.
+        </p>
       </div>
     </section>
   );

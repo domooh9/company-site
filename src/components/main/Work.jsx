@@ -1,25 +1,28 @@
+import React from "react";
 import "../../stylesheets/work.css";
+
 const Work = () => {
   const works = [
-    { item: "Work Hours", value: 500 },
-    { item: "Great Reviews", value: 500 },
-    { item: "Projects Done", value: 500 },
-    { item: "Awards Won", value: 500 },
+    { item: "Innovative Ideas", value: "Unlimited" },
+    { item: "Passionate Team", value: "Dedicated" },
+    { item: "Projects on the Horizon", value: "Countless" },
+    { item: "Dreams to Achieve", value: "Endless" },
   ];
+
   return (
-    <section id="work" className=" work grid">
+    <section id="work" className="work grid">
       <div>
         <h2>
-          Our slutions for your <br />
-          <span>business growth</span>
+          Fueling Your <br />
+          <span>Startup Aspirations</span>
         </h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
-          officia aspernatur, quae non tempore sed vel quaerat quas error
-          voluptatem!
+          At the heart of our startup journey lies an abundance of innovative
+          ideas and a passionate team eager to turn them into reality. Our
+          vision knows no bounds, we are on a mission to bring countless
+          projects to life and achieve endless dreams.
         </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel.</p>
-        <button className="button">read more</button>
+        <button className="button">Learn More</button>
       </div>
       <ul id="nbrs" className="grid">
         {works.map((work) => (

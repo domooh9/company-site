@@ -8,7 +8,7 @@ footer .copyrights {
   background: var(--lightTransparence);
   color: var(--light);
   padding: 1rem;
-  position: relative;
+  position: relative; 
 }
 footer span {
   text-transform: uppercase;
@@ -56,7 +56,7 @@ footer span span {
 }
 /* Details Style */
 .footer-infos.grid {
-  text-align: left;
+  text-align: center;
   grid-template-columns: repeat(4, 1fr);
 }
 .footer-infos h3 {
@@ -122,4 +122,8 @@ footer span span {
   .footer-infos.grid div:not(:nth-child(4)) {
     display: none;
   }
+}
+#copy{
+  margin-top: 15px;
+  color: whitesmoke;
 }
