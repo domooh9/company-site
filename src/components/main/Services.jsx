@@ -11,7 +11,7 @@ const Services = () => {
           <h1>
             Our <span>Services</span>
           </h1>
-          <h5>
+          <i>
             At Flomitech innovations limited, we're dedicated to harnessing
             technology for innovation and excellence. Our team adapts to
             emerging trends,{" "}
@@ -22,7 +22,7 @@ const Services = () => {
             </p>{" "}
             Join us to unlock your full potential and shape the future of
             technology.
-          </h5>
+          </i>
         </div>
         <section className="services grid">
           {data.map((service) => (

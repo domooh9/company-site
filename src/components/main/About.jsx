@@ -44,7 +44,7 @@ const About = () => {
               src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
               alt="Client 1"
             />
-            <h3>Catherine Joy</h3>
+            <h3>Michael Auko</h3>
             <span>CEO, Tech Innovations</span>
             <p>
               "Flomitech Innovations has been an invaluable partner in our
@@ -57,7 +57,7 @@ const About = () => {
               src="https://images.unsplash.com/photo-1517499610481-9bc77847c8b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
               alt="Client 2"
             />
-            <h3>James Okumu</h3>
+            <h3>Catherine Okumu</h3>
             <span>Founder, Digital Ventures</span>
             <p>
               "Flomitech Innovations not only delivers exceptional solutions but
