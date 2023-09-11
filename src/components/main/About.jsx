@@ -41,7 +41,7 @@ const About = () => {
         <div className="about-us grid">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+              src="https://imgs.search.brave.com/VPuUjkvUwe1_pOIq1OIoYIv3JthPAKPEEMje3HMIpNQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9ubm1l/ZGlhLm5hdGlvbi5h/ZnJpY2EvdXBsb2Fk/cy8yMDE4LzA4L0ph/a2FraW1iYS5qcGc"
               alt="Client 1"
             />
             <h3>Michael Auko</h3>
@@ -54,7 +54,7 @@ const About = () => {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1517499610481-9bc77847c8b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+              src="https://imgs.search.brave.com/ujbuHD9_ie5vuWPhauZCxRULbp1MTUOn0ajXITE6XIQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91c2hp/bmRpZW1wb3dlcm1l/bnQub3JnL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIyLzExL0tl/cGhlci1SaXRhLUFr/aW55aS0xLTg4OHgx/MDI0LmpwZw"
               alt="Client 2"
             />
             <h3>Catherine Okumu</h3>
