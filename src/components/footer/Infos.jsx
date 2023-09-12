@@ -1,11 +1,17 @@
+import { Link } from "react-router-dom";
+
 const Infos = () => {
   return (
     <div id="useful-links" className="footer-infos grid">
       <div>
         <h3>Finance Business</h3>
         <ul>
-          <li>Some Link</li>
-          <li>Some Link</li>
+          <li>
+            <Link to="/blog"></Link>Blog
+          </li>
+          <li>
+            <Link to="/products"></Link>Check our store
+          </li>
           <li>Some Link</li>
           <li>Some Link</li>
         </ul>

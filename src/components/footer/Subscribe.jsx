@@ -1,5 +1,6 @@
 import wave2 from "../images/wave2.png";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Subscribe() {
   return (
@@ -21,8 +22,12 @@ export default function Subscribe() {
             <h3>Information</h3>
             <ul>
               <li>About Us</li>
-              <li>How We Work</li>
-              <li>Terms and Conditions</li>
+              <li>
+                <Link to="/blog">Blog</Link>
+              </li>
+              <li>
+                <Link to="/products">Check our store</Link>
+              </li>
               <li>Privacy Policy</li>
             </ul>
           </div>

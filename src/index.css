@@ -144,7 +144,7 @@ ul {
 }
 #social-media{
   background: wheat;
-  height: 10vh;
+  height: 10px;
   padding: 10%;
 }
 #social-media p {
@@ -160,6 +160,26 @@ ul {
 .social-icons a:hover img {
   transform: translateY(-20px);
 }
+@media (max-width: 768px) {
+  #social-media {
+    text-align: center; /* Center align content on smaller screens */
+    padding: 5%;
+    }
+
+  #social-media p {
+    font-size: 24px;
+  }
+
+  .social-icons img {
+    width: 40px;
+    
+  }
+
+  .social-icons a:hover img {
+    transform: none; /* Remove hover transformation on smaller screens */
+  }
+}
+
 #footer {
   /* background-image: linear-gradient(to right, #051a37, #051a37); */
   background-color: #051a37;
