@@ -1,13 +1,16 @@
 import "../stylesheets/nav.css";
 import NavBar from "./nav/NavBar";
-import NavSocial from "./nav/NavSocial";
 
 const Nav = () => {
   return (
     <nav>
-      <NavSocial />
       <div className="topnav" id="myTopnav">
-        <div className="logo to-left">floMitech</div>
+        <div className="logo to-left">
+          <div class="logo-text">
+            <span class="flomi">flomitech</span>
+            <span class="slogan">--innovating your tomorrow, today--</span>
+          </div>
+        </div>
         <NavBar />
         <div className="clear"></div>
       </div>

@@ -23,6 +23,7 @@ header {
   font-family: 'Abel', sans-serif;
   color: var(--primary);
   margin: 0.7rem 0;
+  color: rgb(94, 180, 180)
 }
 .header p {
   width: 65%;
@@ -92,7 +93,6 @@ header {
     width: 100%; /* End with full width */
   }
 }
-
 
 
 
