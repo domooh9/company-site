@@ -11,7 +11,7 @@ const NavSocial = () => {
     <section id="social-media">
       <div className="container text-center">
         <div className="social-icons">
-          <ul className="to-left">
+          {/* <ul className="to-left">
             <li className="date">
               <i className="calendar alternate outline icon"></i>{" "}
               {date.toDateString()}
@@ -19,7 +19,7 @@ const NavSocial = () => {
             <li className="phone-num">
               <i className="phone icon"></i> 0710809487
             </li>
-          </ul>
+          </ul> */}
           <ul className="to-right">
             <a href="#">
               <img src={facebooklogo} alt="facebook" />
