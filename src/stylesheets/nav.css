@@ -41,12 +41,15 @@
   background: none;
   text-align: center;
   text-decoration: none;
-  font-weight: 500;
-  font-family: "News Cycle", sans-serif;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
   padding: 0.5rem 0.7rem;
+  color: navajowhite;
 }
 .nav-item:hover {
   text-transform: uppercase;
+  border-bottom: 2px solid yellow;
+
 }
 .nav-item:focus {
   outline: none;
