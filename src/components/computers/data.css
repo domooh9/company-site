@@ -1,12 +1,10 @@
-
-
 .computers {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px;
+  margin-top: 70px;
 }
-
 .product {
   width: calc(33.33% - 20px);
   margin-bottom: 20px;
@@ -52,3 +50,4 @@
     background: black;
     background-color: aquamarine;
   }
+ 

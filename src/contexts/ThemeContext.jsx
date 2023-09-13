@@ -3,8 +3,8 @@ import { navReducer } from "../reducers/ThemeReducer";
 export const ThemeContext = createContext();
 const ThemeContextProvider = (props) => {
   const [items, dispatch] = useReducer(navReducer, [
-    { link: "#our-services", value: "our services" },
-    { link: "#work", value: "Computers available" },
+    { link: "/", value: "Our services" },
+    { link: "/products", value: "Computers available" },
     { link: "#about-us", value: "about us" },
     { link: "/blog", value: "blog" },
     { link: "#useful-links", value: "useful links" },
