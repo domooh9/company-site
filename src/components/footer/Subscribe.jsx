@@ -1,12 +1,13 @@
 import wave2 from "../images/wave2.png";
 import React from "react";
+import NavSocial from "../nav/NavSocial";
 import { Link } from "react-router-dom";
 
 export default function Subscribe() {
   return (
     <section id="footer">
       <img src={wave2} alt="" className="footer-img" />
-      <div className="container">
+      <div className="container" id="cont">
         <div className="row"></div>
         <div id="useful-links" className="footer-infos grid">
           <div>
@@ -55,6 +56,7 @@ export default function Subscribe() {
             </ul>
           </div>
         </div>
+        <NavSocial />
         <hr />
         <p className="copyright" id="copy">
           FLOMITECH INNOVATIONS LIMITED | &#169; 2023-2024 All&nbsp;Right

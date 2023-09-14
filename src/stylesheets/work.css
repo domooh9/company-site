@@ -1,6 +1,6 @@
 .work.grid {
   background: var(--lightTransparence);
-  color: #fff;
+  color: #F2E3DB;
 }
 .work ul.grid {
   grid-template-columns: 1fr 1fr;
@@ -23,4 +23,10 @@
 }
 .work ul li p {
   margin: 0.3rem 0;
+}
+button{
+  color: #F2E3DB;
+}
+.nb{
+  color: #E86A33;
 }

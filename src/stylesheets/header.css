@@ -23,11 +23,11 @@ header {
   font-family: 'Abel', sans-serif;
   color: var(--primary);
   margin: 0.7rem 0;
-  color: rgb(94, 180, 180)
+  color: #E86A33;
 }
 .header p {
   width: 65%;
-  color: #fff;
+  color: #F2E3DB;
   margin: 0.7rem 0;
 }
 .header .btn {

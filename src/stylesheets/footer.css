@@ -9,6 +9,7 @@ footer .copyrights {
   color: var(--light);
   padding: 1rem;
   position: relative; 
+  color: #F2E3DB;
 }
 footer span {
   text-transform: uppercase;

@@ -1,7 +1,6 @@
 import facebooklogo from "../images/facebook-icon.png";
 import twitterlogo from "../images/twitter-icon.png";
 import instagramlogo from "../images/instagram-icon.png";
-import whatsapplogo from "../images/whatsapp-icon.png";
 import linkedinlogo from "../images/linkedin-icon.png";
 import snapchatlogo from "../images/snapchat-icon.png";
 
@@ -30,9 +29,6 @@ const NavSocial = () => {
             </a>
             <a href="#">
               <img src={twitterlogo} alt="twitter" />
-            </a>
-            <a href="#">
-              <img src={whatsapplogo} alt="whastapp" />
             </a>
             <a href="#">
               <img src={linkedinlogo} alt="linkedin" />

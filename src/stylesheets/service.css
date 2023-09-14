@@ -1,6 +1,7 @@
 .service {
   width: 100%;
-  background: var(--light);
+  background: #F2E3DB;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 .service img {
   height: 275px;

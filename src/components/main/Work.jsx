@@ -28,7 +28,7 @@ const Work = () => {
         {works.map((work) => (
           <li key={work.item}>
             <span className="nbr">{work.value}</span>
-            <p>{work.item}</p>
+            <p className="nb">{work.item}</p>
           </li>
         ))}
       </ul>
