@@ -33,7 +33,7 @@ const About = () => {
           <h1>
             What they say <span> about us</span>
           </h1>
-          <p>
+          <p className="clien">
             Discover what our valued clients have to say about their experiences
             with us.
           </p>

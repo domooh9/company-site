@@ -48,7 +48,7 @@ export default function Subscribe() {
                 <i className="map marker alternate icon"></i>KISUMU KE
               </li>
               <li>
-                <i className="mail icon"></i>domooh9@.com
+                <i className="mail icon"></i>domooh9@gmail.com
               </li>
               <li>
                 <i className="phone volume icon"></i> +254710809487

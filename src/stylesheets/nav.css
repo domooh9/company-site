@@ -49,7 +49,7 @@
 }
 .nav-item:hover {
   text-transform: uppercase;
-  border-bottom: 2px solid yellow;
+  border-bottom: 2px solid #E86A33;
 
 }
 .nav-item:focus {

@@ -14,6 +14,13 @@
   justify-items: center;
   text-align: center;
 }
+.clien{
+  /* Center the text horizontally */
+  margin-right: auto; /* Add vertical spacing (adjust as needed) */
+  line-height: 1.6;
+  position: relative;
+  left: 250px;
+}
 .about-title {
   margin-bottom: 2rem;
 }
@@ -25,6 +32,10 @@
   font-size: 1rem;
   text-transform: uppercase;
   color: var(--blue);
+   text-align: justify;
+  text-justify: inter-word;
+  margin-right: 20px; 
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 .about-us {
   grid-template-columns: 1fr 1fr;

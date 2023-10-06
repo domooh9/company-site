@@ -3,7 +3,6 @@ import "../stylesheets/main.css";
 import About from "./main/About";
 import Features from "./main/Features";
 import Services from "./main/Services";
-import { Icon } from "@iconify/react";
 import Work from "./main/Work";
 const Main = () => {
   let isScrolled = false;
@@ -53,15 +52,6 @@ const Main = () => {
         <Work />
         <About />
         <Features />
-        <div className="whatsapp-icon">
-          <a
-            href="https://wa.me/2348100000000"
-            className="whatsapp_float"
-            target="_blank"
-            rel="noopener noreferrer">
-            <Icon className="whatsapp_float " icon="logos:whatsapp-icon" />
-          </a>
-        </div>
       </main>
     </ServicesContextProvider>
   );
