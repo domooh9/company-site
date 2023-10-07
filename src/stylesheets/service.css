@@ -36,3 +36,11 @@
 .join{
   color: #E86A33;
 }
+.service {
+  /* Your existing styles here */
+  transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+  transform: scale(1.05); /* Increase the size slightly on hover */
+}
